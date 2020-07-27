@@ -1335,7 +1335,7 @@ execute_unload "bas.gdx";
 
 
 
-*X.fx("nuc",r)$EU28(r) = 1;
+X.fx("nuc",r)$EU28(r) = 1;
 PEMR.fx(es,r)$(not EU27(r))     = pems0(es,r);
 emlim("ets","EU27")             = emlim_("ets","EU28","GHG55","%YEAR%");
 emlim("nets",u)$ EU27u(u)       = emlim_("nets",u,"GHG55","%YEAR%");

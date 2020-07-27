@@ -1333,7 +1333,7 @@ alias (s,*);
 *$batinclude report11 bas
 execute_unload "bas.gdx";
 
-
+display s;
 
 X.fx("nuc",r)$EU28(r) = 1;
 PEMR.fx(es,r)$(not EU27(r))     = pems0(es,r);
