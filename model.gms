@@ -1334,6 +1334,8 @@ alias (s,*);
 execute_unload "bas.gdx";
 
 display s;
+display r;
+$exit
 
 X.fx("nuc",r)$EU28(r) = 1;
 PEMR.fx(es,r)$(not EU27(r))     = pems0(es,r);
